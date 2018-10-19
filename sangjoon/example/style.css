@@ -1,0 +1,168 @@
+body{  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+a{  text-decoration: none}
+
+.container{
+  text-align: center;
+  min-width: 1000px;
+  margin: 0px;
+}
+
+header{
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  border-bottom: 1px solid grey;
+  background-color: rgb(240,240,240);
+  margin: 0px;
+  height: 70px;
+  padding-top: 15px;
+}
+header *{
+  display: inline;
+}
+#Github{
+color: black;
+letter-spacing: 0px;
+font-family: sans-serif;
+font-size: 40px;
+font-weight: 500;
+}
+.header_left{
+  padding-top: : 50px;
+}
+
+.search{
+  box-sizing: border-box;
+  height: 80px;
+  margin-left: 10px;
+  border: 2px solid;
+  border-radius: 3px;
+  border-color: lightgrey;
+  background-color: white;
+  padding: 2px;
+  font-family: sans-serif;
+  margin-right: 20px;
+}
+
+.search label{
+  width: 100%;
+  color: grey;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 0px;
+  border-color: lightgrey;
+  background-color: rgb(240,240,240);
+  font-size: smaller;
+}
+.search input[type="text"]{
+  background-image: "This repsitory";
+  background-position: left;
+      box-sizing: border-box;
+      padding: 5px 20px;
+      margin: 8px 0;
+width: auto;
+  height: auto;
+  line-height: normal;
+  color: rgb(180,180,180);
+  font-weight: 700;
+  border: none;
+  margin-left: 5px;
+  font-size: 15px;
+}
+#navi{
+  margin-left: : 0px;
+  margin-right: 90px;
+}
+.nav{
+  margin: 5px;
+  color: black;
+  font-family: sans-serif;
+  font-weight:  600;
+  font-size: 15px;
+}
+.nav .more{
+  font-weight: bold;
+  font-size: 18px;
+}
+#button_sign_in{
+  font-weight: bolder;
+  border: 1.2px outset grey;
+  border-radius: 4px;
+  background-color: white;
+  height: 30px;
+  margin-left: 10px;
+}
+#button_sign_up{
+  color: white;
+  border: 1.2px outset green;
+  border-radius: 4px;
+  background-color: lightgreen;
+  height: 30px;
+}
+.top{   display: flex;
+    align-items: center;
+    justify-content: center;
+  border-bottom: 1px solid;
+  height: 70px;
+}
+
+.top_left
+{   display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-size: 20px;
+    margin-right: : 100px;
+}
+.top_right{
+  margin-left:450px;
+}
+.page_stat{
+  border: 1px solid;
+  border-radius: 3px;
+  margin-left: : 15px;
+}
+.button_count{
+  border: 1px solid;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 3px 5px 3px 5px;
+}
+.content{
+    display: flex;
+    margin: 0 auto;
+    align-items: flex-start;
+    justify-content: center;
+}
+.upside{
+}
+
+.left{
+  border: 1px solid;
+  /* border-right: 1px solid; */
+        flex-grow: 300px;
+}
+.right{
+    border: 1px solid;
+      margin-top: 50px;
+          flex-grow: 300px;
+}
+.footer{
+    /* height: 50px; */
+    width: 1000px;
+    line-height: 50px;
+    border: 1px solid grey;
+    text-align: center;
+    margin: auto;
+}
+.footer *{
+  display: inline;
+}
