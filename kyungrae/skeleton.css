@@ -1,0 +1,70 @@
+body{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+.toppest{
+  width: 100%;
+  background-color: #e9e9e9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.toppest h1, .top td, .top button{
+  margin: 10px 15px;
+}
+
+.toppest ul{
+  list-style-type: none;
+  padding: 0px;
+}
+
+.toppest li{
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.toppest li a {
+  color:black;
+  display: block;
+}
+
+.toppest button{
+  width: 80px;
+  height: 30px;
+}
+
+#gbutton{
+  background-color: #90ee90;
+  color: white;
+  margin-left: 75px;
+}
+
+.container{
+  width: 100%;
+}
+
+.container header{
+  width: 100%;
+  padding: 10px 0px;
+  border-bottom: 1px groove black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container header p{
+  border:1px groove black;
+}
