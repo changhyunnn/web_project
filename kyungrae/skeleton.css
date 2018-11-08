@@ -1,0 +1,156 @@
+body{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+.first{
+  width: 100%;
+  background-color: #e9e9e9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.category{
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.category h1{
+  margin: 20px 20px 20px 0px;
+}
+.category ul{
+  list-style-type: none;
+  margin: 20px;
+  padding: 0px;
+}
+.category li{
+  float: left;
+  text-align: center;
+  margin: 10px;
+}
+.category li a {
+  color:black;
+  display: block;
+}
+.category button{
+  width: 80px;
+  height: 30px;
+  margin: 5px;
+}
+#gbutton{
+  background-color: #90ee90;
+  color: white;
+  margin-left: 60px;
+}
+
+.second{
+  width: 100%;
+  padding: 20px 0px;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.repository{
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.repository a{
+  font-size: 20px;
+}
+.repository button{
+  margin-left: 5px;
+  width: 80px;
+  height: 25px;
+}
+.repository p{
+  margin-right: 5px;
+  border:1px groove black;
+}
+
+.content{
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.content main{
+  width: 800px
+}
+.content table{
+  border: outset;
+  border-spacing: 0px;
+}
+.content th{
+  width: 200px;
+  height: 30px;
+  text-align: center;
+}
+.content select{
+  background-color: #e9e9e9;
+  height: 25px;
+}
+.content nav{
+  width: 200px;
+}
+
+.directory{
+  font-size: 12px;
+}
+.directory tr{
+  border: 1px solid black;
+}
+.directory th, .directory td{
+  width: 265px;
+}
+
+.content ul, .content ol{
+  list-style-type: none;
+  margin: 20px;
+  padding: 0px;
+}
+.content li{
+  margin: 15px 3px;
+}
+.content li a {
+  display: block;
+}
+.content button{
+  width: 80px;
+  height: 30px;
+  margin: 5px;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid black;
+  margin: 70px 10px;
+  padding: 50px 0px;
+}
