@@ -11,60 +11,102 @@ a{
   text-decoration: none;
 }
 
-.toppest{
+.first{
   width: 100%;
   background-color: #e9e9e9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.category{
+  width: 1000px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-
-.toppest h1, .top td, .top button{
-  margin: 10px 15px;
+.category h1{
+  margin: 20px 20px 20px 0px;
 }
-
-.toppest ul{
+.category ul{
   list-style-type: none;
+  margin: 20px;
   padding: 0px;
 }
-
-.toppest li{
+.category li{
   float: left;
   text-align: center;
-  margin-left: 10px;
+  margin: 10px;
 }
-
-.toppest li a {
+.category li a {
   color:black;
   display: block;
 }
-
-.toppest button{
+.category button{
   width: 80px;
   height: 30px;
+  margin: 5px;
 }
-
 #gbutton{
   background-color: #90ee90;
   color: white;
   margin-left: 75px;
 }
 
-.container{
+.second{
   width: 100%;
+  padding: 20px 0px;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.repository{
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.repository a{
+  font-size: 20px;
+}
+.repository button{
+  margin-left: 5px;
+  width: 80px;
+  height: 25px;
+}
+.repository p{
+  margin-right: 5px;
+  border:1px groove black;
 }
 
-.container header{
-  width: 100%;
-  padding: 10px 0px;
-  border-bottom: 1px groove black;
+.content{
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content section{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-.container header p{
-  border:1px groove black;
+.content main{
+  width: 800px
+}
+.content table{
+  border: 1px solid black;
+}
+.content th{
+  border: 1px solid black;
+}
+.content nav{
+  width: 200px;
 }
